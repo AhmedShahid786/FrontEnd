@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <AuthContextProvider>
         <Routes>
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
 
           <Route path="/admin" element={<AdminDashboard />} />
           <Route path="/receptionist" element={<Receptionist />} />
